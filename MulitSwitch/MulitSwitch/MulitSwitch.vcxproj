@@ -47,10 +47,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\Arduino\libraries;D:\Arduino\hardware\arduino\avr\libraries;C:\Users\admip\Documents\Arduino\libraries;D:\Arduino\hardware\arduino\avr\cores\arduino;D:\Arduino\hardware\arduino\avr\variants\standard;C:\Users\admip\Documents\Visual Studio 2017\Projects\MulitSwich\MulitSwitch\MulitSwitch;D:\Arduino\hardware\tools\avr/avr/include/;D:\Arduino\hardware\tools\avr//avr/include/avr/;D:\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src;C:\Users\admip\Documents\Arduino\libraries\SmartThings;C:\Users\admip\Documents\Arduino\libraries\SmartThings\utility;D:\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src\utility;D:\Arduino\libraries;D:\Arduino\hardware\arduino\avr\libraries;C:\Users\admip\Documents\Arduino\libraries;D:\Arduino\hardware\arduino\avr\cores\arduino;D:\Arduino\hardware\arduino\avr\variants\standard;C:\Users\admip\Documents\Visual Studio 2017\Projects\MulitSwich\MulitSwitch\MulitSwitch;D:\Arduino\hardware\tools\avr/avr/include/;D:\Arduino\hardware\tools\avr//avr/include/avr/;D:\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>C:\Users\admip\Documents\Visual Studio 2017\Projects\MulitSwich\MulitSwitch\MulitSwitch\__vm\.MulitSwitch.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=106012;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=106012;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -59,10 +59,14 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <Optimization>MaxSpeed</Optimization>
+      <Optimization>Disabled</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src;C:\Users\admip\Documents\Arduino\libraries\SmartThings;C:\Users\admip\Documents\Arduino\libraries\SmartThings\utility;D:\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src\utility;D:\Arduino\libraries;D:\Arduino\hardware\arduino\avr\libraries;C:\Users\admip\Documents\Arduino\libraries;D:\Arduino\hardware\arduino\avr\cores\arduino;D:\Arduino\hardware\arduino\avr\variants\standard;C:\Users\admip\Documents\Visual Studio 2017\Projects\MulitSwich\MulitSwitch\MulitSwitch;D:\Arduino\hardware\arduino\avr\cores\arduino;D:\Arduino\hardware\arduino\avr\variants\standard;D:\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src;C:\Users\admip\Documents\Arduino\libraries\SmartThings;D:\Arduino\libraries;D:\Arduino\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\qaxhzspr.xog\Micro Platforms\default\debuggers;C:\Users\admip\Documents\Arduino\libraries;D:\Arduino\hardware\tools\avr/avr/include/;D:\Arduino\hardware\tools\avr//avr/include/avr/;D:\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Users\admip\Documents\Visual Studio 2017\Projects\MulitSwich\MulitSwitch\MulitSwitch\__vm\.MulitSwitch.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=106012;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
