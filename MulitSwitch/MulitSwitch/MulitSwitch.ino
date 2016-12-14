@@ -3,9 +3,9 @@
  Created:	12/14/2016 2:56:44 PM
  Author:	Le Hung
  Email:		lehungmt94@gmail.com
- Company:	Deki Connet
- Website:	xinkciti.com
-			mculearning.wordpress.com
+ Company:	Deki Connect
+ Website:	http://xinkciti.com
+			http://mculearning.wordpress.com
 */
 
 
@@ -24,6 +24,11 @@
 #define LED_RED			5
 #define LED_BLUE		8
 #define LED_YELLOW		7
+
+#define LED_GREEN2		13
+#define LED_RED2		10
+#define LED_BLUE2		11
+#define LED_YELLOW2		12
 
 #define isDebugEnabled  1
 //*****************************************************************************
@@ -82,6 +87,11 @@ void setup() {
 	pinMode(LED_RED, OUTPUT);
 	pinMode(LED_BLUE, OUTPUT);
 	pinMode(LED_YELLOW, OUTPUT);
+
+	pinMode(LED_GREEN2, OUTPUT);
+	pinMode(LED_RED2, OUTPUT);
+	pinMode(LED_BLUE2, OUTPUT);
+	pinMode(LED_YELLOW2, OUTPUT);
 	Serial.println("Setup for I/O Finish..");
 
 }
@@ -152,6 +162,18 @@ void messageCallout(String message)
 	{
 		digitalWrite(LED_YELLOW, HIGH);
 		smartthing.send("on4");
+	}
+
+	//Green2 Led check event
+	if (message.equals("greenb0"))
+	{
+		digitalWrite(LED_GREEN2, LOW);
+		smartthing.send("off5");
+	}
+	else if (message.equals("greenb1"))
+	{
+		digitalWrite(LED_GREEN2, HIGH);
+		smartthing.send("on5");
 	}
 	
 
