@@ -25,6 +25,11 @@
 #define LED_BLUE		8
 #define LED_YELLOW		7
 
+#define LED_GREEN2		9
+#define LED_RED2		10
+#define LED_BLUE2		11
+#define LED_YELLOW2		12
+
 #define isDebugEnabled  1
 //*****************************************************************************
 // Global Variables   | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -153,6 +158,32 @@ void messageCallout(String message)
 		digitalWrite(LED_YELLOW, HIGH);
 		smartthing.send("on4");
 	}
+
+	//Green2 check event
+	if (message.equals("greenb0"))
+	{
+		digitalWrite(LED_GREEN2, LOW);
+		smartthing.send("off5");
+	}
+	else if (message.equals("greenb1"))
+	{
+		digitalWrite(LED_GREEN2, HIGH);
+		smartthing.send("on5");
+	}
+
+	//RED2 check event
+	if (message.equals("redb0"))
+	{
+		digitalWrite(LED_RED2, LOW);
+		smartthing.send("off6");
+	}
+	else if (message.equals("redb1"))
+	{
+		digitalWrite(LED_RED2, HIGH);
+		smartthing.send("on6");
+	}
+
+
 	
 
 }
