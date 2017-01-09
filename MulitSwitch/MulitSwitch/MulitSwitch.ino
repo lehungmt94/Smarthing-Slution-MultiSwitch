@@ -20,15 +20,15 @@
 #define PIN_THING_RX    3
 #define PIN_THING_TX    2
 
-#define LED_GREEN		4
-#define LED_RED			5
-#define LED_BLUE		8
-#define LED_YELLOW		7
+#define LED_GREEN		7
+#define LED_RED			8
+#define LED_BLUE		9
+#define LED_YELLOW		10
 
-#define LED_GREEN2		9
-#define LED_RED2		10
-#define LED_BLUE2		11
-#define LED_YELLOW2		12
+#define LED_GREEN2		11
+#define LED_RED2		12
+//#define LED_BLUE2		0
+//#define LED_YELLOW2		0
 
 #define isDebugEnabled  1
 //*****************************************************************************
