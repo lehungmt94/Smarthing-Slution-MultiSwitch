@@ -1,0 +1,18 @@
+Field=Designator~String~Designator~125|Field=Comment~String~Comment~125|Field=Quantity~Integer~Quantity~52|Field=Description~String~Description~149|Field=Footprint~String~Footprint~149|Field=LibRef~String~LibRef~150|Field=Address1~String~Address1~119|Field=Simulation~String~Simulation~119|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~PCB_ArduinoUnoCustom.PrjPcb|ReportField=ProjectFullPath~F:\May tinh Deki\MultiSwitch\PCB design\V2\PCB_ArduinoUnoCustom\PCB_ArduinoUnoCustom.PrjPcb|ReportField=Title~Bill of Materials For Project [PCB_ArduinoUnoCustom.PrjPcb] (PCB Document : PCB1.PcbDoc)|ReportField=TotalQuantity~45|ReportField=ReportTime~2:34:02 CH|ReportField=ReportDate~29/12/2016|ReportField=ReportDateTime~29/12/2016 2:34:02 CH|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~29/12/2016|ReportField=CurrentTime~2:27:10 CH|ReportField=Date~|ReportField=DocumentFullPathAndName~F:\May tinh Deki\MultiSwitch\PCB design\V2\PCB_ArduinoUnoCustom\Sheet1.SchDoc|ReportField=DocumentName~Sheet1.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~27/12/2016|ReportField=Organization~|ReportField=ProjectName~PCB_ArduinoUnoCustom.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~PCB_ArduinoUnoCustom.PrjPcb|ReportField=DataSourceFullPath~F:\May tinh Deki\MultiSwitch\PCB design\V2\PCB_ArduinoUnoCustom\PCB_ArduinoUnoCustom.PrjPcb|ReportField=PCBDataSourceFileName~PCB1.PcbDoc|ReportField=PCBDataSourceFullPath~F:\May tinh Deki\MultiSwitch\PCB design\V2\PCB_ArduinoUnoCustom\PCB1.PcbDoc
+AD1|AD|1||Header 6x1 8.5mm|AD||
+C1|10uF|1|Cap P  0,1uF < 22uF , 16 - 50V|CP1/2|CP1||
+C2|100uF|1|Cap P  0,1uF < 22uF , 16 - 50V|CP1/2|CP1||
+C3, C4, C5|103|3|Cap np 682pF => 104pF|CN1.5|CN1.5||
+D1, D2, D3, D4, D5, D6|1N4007|6|Diode 1A|D1A|D1A||
+HD1, HD2, HD3, HD4, HD5, HD6|Header 3|6|Header 3 (Green)|HED3|Hed3||
+IC1|LM7805|1|On ap +, from + 5 to + 24VDC|QTO-220|LM78xx||
+IC2|ATmega8-L|1|8-Bit AVR Microcontroller with 8K Bytes of In-System Programmable Flash Memory|DIP28/W0.3|ATmega8-L||
+IOH1|IOH|1||Header 10x1 8.5mm|IOH||
+IOL1|IOL|1||Header 8x1 8.5mm|IOL||
+JDC1|Jac DC|1|Jac DC input|DC-IN|DCIN||
+JP1|JP6 PIN|1|JP6 PIN|JP6|JP6||
+POWER1|POWER_UNO|1||Header 8x1 8.5mm|POWER_UNO||
+Q1, Q2, Q3, Q4, Q5, Q6|C1815|6|NPN 600mW, ECB|QTO-92|C1815||
+R1, R2, R3, R4, R5, R6, R7|1.5k|7|Resistor 1/4W|R1/4W|R||
+RL1, RL2, RL3, RL4, RL5, RL6|Relay 10A/12V|6|Relay SPDT,10A - 12VDC 5 Pin|RL_SPDT_10A|Relay 1||
+X1|16Mhz|1|Crystal For all Crystal 2pin.|XT2|XT2||
